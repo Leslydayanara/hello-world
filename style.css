@@ -1,0 +1,186 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    overflow-x: hidden;
+    font-family: Playfair+Display:400;
+    text-rendering: optimizeLegibility !important;
+}
+
+a{
+    text-decoration: none;
+    transition: all 500ms ease-in-out;
+}
+
+h1,h2,h4{
+    font-family: 'PT Sans Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-top: 10px;
+}
+p {
+    font-size:15px;
+    line-height:25px;
+}
+.btn{
+    transition: all 300ms ease-in-out;
+    font-weight: 500 !important;
+    text-transform: uppercase;
+}
+.btn:hover{
+    background-color: #ededed !important;
+    color: #3c3c3c !important;
+    border: 1px solid #fff !important;
+}
+
+/* NAVIGATION */
+
+.navbar {
+    text-transform: uppercase;
+    font-family: 'PT Sans Narrow', Arial, sans-serif;
+    font-weight: 500;
+}
+
+/* NAVIGATION END*/
+
+/* HEADER */
+
+.header {
+    box-sizing: border-box;
+}
+.slideshow-container {
+    position: relative;
+    margin:auto;
+}
+.header .myimages img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1500px;
+    height: 500px;
+}
+
+/* HEADER END */
+
+/* ABOUT US */
+
+.about {
+    padding: 80px 0 80px;
+    text-align: center;
+}
+.about span{
+    width: 100px;
+    color: #4c4c4c;
+    padding: 10px;
+    display: inline-block;
+    font-size: 20px;
+}
+.about i{
+    height: 50px;
+    width: 50px;
+    font-size: 25px;
+    padding: 15px 10px;
+    border-radius: 40%;
+    background-color: #5cb85c;
+    color: #fff;
+}
+
+/* ABOUT US END */
+
+/*MEET OUR TEAM*/
+
+.team h3{
+    margin-top: 30px;
+}
+.team img{
+    margin-top: 30px;
+    border-radius: 40%;
+}
+
+.team p{
+    color: #737373;
+}
+
+/* MEET OUR TEAM END */
+
+/*GET INVOLVED */
+.getinvolved{
+    padding: 50px 0 80px;
+    text-align: center;
+    background-color: #5cb85c;
+    margin-top: 50px;
+}
+
+.getinvolved h2{
+    color: #fff;
+}
+
+.getinvolved .options{
+    padding: 30px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.getinvolved i{
+    width: 50px;
+    height: 50px;
+    font-size: 40px;
+}
+
+/* GET INVOLVED END */
+/*CONTACT*/
+.contact{
+    background-color: #fff;
+    margin-top: 20px;
+}
+
+.contact .message{
+    height: 100px;
+    margin-bottom: 5px;
+}
+
+/* FOOTER */
+.footer{
+    background-color: #fff;
+    margin-top: 20px;
+}
+
+.footer .btn{
+    margin-top: 5px;
+}
+
+.footer i{
+    font-size: 20px;
+}
+
+/* FOOTER END */
+
+/* DONATE */
+
+.donate{
+    background-color: #fff;
+    margin-top: 20px;
+}
+
+.donate button{
+    padding: 10px;
+    width: 100px;
+    margin: 5px;
+}
+
+.donate .btn:hover{
+    background-color: #428bca !important;
+    color: #fff !important;
+}
+
+.donate .form-control{
+    width:300px;
+    padding: 10px;
+    margin: 5px;
+}
+
+/* DONATE END */
